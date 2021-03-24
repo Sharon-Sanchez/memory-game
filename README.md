@@ -47,7 +47,7 @@ When the player starts the game, the pattern starts slow and short:
 
 ![When pressed start, the pattern starts slow and small](https://media.giphy.com/media/zo1svxDJoShf6lbDv9/giphy.gif)
 
-As the player goes through game, the pattern gets longers and faster:
+As the player goes through the game, the pattern gets longers and faster:
 
 ![As game goes on, the pattern gets longer and faster](https://media.giphy.com/media/4eiCrTKO9yxi8r8qV3/giphy.gif)
 
