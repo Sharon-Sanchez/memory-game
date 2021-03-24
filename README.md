@@ -56,7 +56,7 @@ When the player successfully completes the entire pattern, they get a message th
 ![The player completes the pattern and wins the game](https://media.giphy.com/media/XNSWweKt23BnkBOz8Z/giphy.gif)
 
 However, the player can make 3 mistakes but if they still failed then the game ends:
-![When the player makes mistakes and loses](https://media.giphy.com/media/bzdyJqm4f0QWb4LQ4Y/giphy.gif)
+![When the player makes mistakes and loses](http://g.recordit.co/LopKafxBXQ.gif)
 
 
 ## Reflection Questions
