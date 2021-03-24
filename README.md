@@ -43,9 +43,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![When the player makes mistakes and loses] (http://g.recordit.co/LopKafxBXQ.gif)
-![The player goes through the entire game, it is a 12 step pattern going faster] (http://g.recordit.co/Adpjnpd3ip.gif)
-![](http://g.recordit.co/Adpjnpd3ip.gif)
+![When the player makes mistakes and loses](http://g.recordit.co/LopKafxBXQ.gif)
+![The player goes through the entire game, it is a 12 step pattern going faster](http://g.recordit.co/Adpjnpd3ip.gif)
+
 
 ## Reflection Questions
 
