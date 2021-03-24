@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Light and Sound Memory Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing the buttons. <br> 
+      As you progress the pattern, it gets faster so pay close attention! <br>
+      You have 3 chances to guess the correct button otherwise it is game over! <br>
+      Good luck and have fun! 
+    </p>
+    
+    <p>
+       
+    </p>
+    
+    <button id="startBtn" onclick="startGame()">              
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"><img id= "firstimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Fgreen%20flower.jpeg?v=1616219244305" alt="green flower" width="165" height="155"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"><img id= "secondimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Fblue%20flower.jpeg?v=1616219064926"  alt="blue flower" width="165" height="155"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"><img id= "thirdimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Fred%20flower.jpg?v=1616219093426"    alt="red flower" width="165" height="155"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"><img id= "fourthimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Fyellow%20flower.jpeg?v=1616219099131" alt="yellow flower" width="165" height="155"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"><img id= "fifthimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Fpurple%20flower.jpeg?v=1616219083434" alt="purple flower" width="165" height="155"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"><img id= "sixthimage" class="hideimage" src="https://cdn.glitch.com/5bb2f3aa-c5e9-4a52-a2de-6dd72785ccb5%2Forange%20flower.jpeg?v=1616219077680" alt="orange flower" width="165" height="155"></button>
+    </div>
+
+    
+  </body>
+</html>
