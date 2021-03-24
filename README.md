@@ -44,13 +44,16 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 When the player starts the game, the pattern starts slow and short:
+
 ![When pressed start, the pattern starts slow and small](https://media.giphy.com/media/zo1svxDJoShf6lbDv9/giphy.gif)
 
 As the player goes through game, the pattern gets longers and faster:
+
 ![As game goes on, the pattern gets longer and faster](https://media.giphy.com/media/4eiCrTKO9yxi8r8qV3/giphy.gif)
 
 When the player successfully completes the entire pattern, they get a message that they won the game:
-![The player completes the pattern and wins the game](https://media.giphy.com/media/XNSWweKt23BnkBOz8Z/giphy.gif
+
+![The player completes the pattern and wins the game](https://media.giphy.com/media/XNSWweKt23BnkBOz8Z/giphy.gif)
 
 However, the player can make 3 mistakes but if they still failed then the game ends:
 ![When the player makes mistakes and loses](http://g.recordit.co/PTgQ2N2VHp.gif)
